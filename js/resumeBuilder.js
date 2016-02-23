@@ -219,8 +219,6 @@ function dispalyEducation(){
 
 dispalyEducation();
 
-var googleMap = '<div id="mapDiv"></div>';
-
 $("#mapDiv").append(googleMap);
 
 
