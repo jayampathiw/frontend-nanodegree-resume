@@ -104,6 +104,10 @@ a {
   display: none;
 }
 
+.skill-item {
+  float: left;
+}
+
 .orange {
   background-color: #f5ae23;
 }
