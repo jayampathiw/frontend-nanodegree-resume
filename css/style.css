@@ -3,6 +3,7 @@ div,
 ul,
 li,
 p,
+hr,
 h1,
 h2,
 h3,
@@ -21,7 +22,7 @@ h6 {
 .education-entry,
 .work-entry,
 .project-entry {
-  padding: 0 5%;
+  padding: .3% 5%;
 }
 
 h1 {
@@ -61,16 +62,20 @@ h5 {
 
 }
 
+.education-entry h3 {
+  padding: 15px 0 0;
+}
 
 .date-text {
+  display: inline-block;
   font-style: italic;
   font-size: 14px;
   color: #999;
   line-height: 16px;
-  float: left;
 }
 
 .location-text {
+  display: inline-block;
   font-style: italic;
   font-size: 14px;
   color: #999;
@@ -85,11 +90,25 @@ p {
   line-height: 21px;
 }
 
+.description {
+  width: 50%;
+}
+
 a {
   color: #1199c3;
   text-decoration: none;
   margin-top: 10px;
   display: block;
+}
+
+#url{
+  margin-top: 0;
+  display: block;
+}
+
+#role{
+  font-size: 18px;
+  color: white;
 }
 
 .welcome-message {
@@ -104,8 +123,8 @@ a {
   display: none;
 }
 
-.skill-item {
-  float: left;
+#skills {
+  margin: 15px 0 0 0;
 }
 
 .orange {
@@ -162,6 +181,10 @@ ul {
 
 img {
   padding: 10px;
+}
+
+.project-entry img{
+  padding: 10px 0;
 }
 
 span {
